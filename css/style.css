@@ -1,0 +1,60 @@
+body {
+      position: relative; 
+      margin:0px;
+      padding: 0px;
+ }
+
+ #section1 {padding:50px 0px;height:800px;color: #fff; background-color: #1E88E5;}
+ #section2 {padding:50px 0px;color: #000; background-color: #fff;}
+ #section3 {padding:50px 0px;}
+ #section4 {padding:50px 0px;color: #000; background-color: #fff;}
+ #section5 {padding:50px 0px;}
+ #section6 {padding:50px 0px;color: #000; background-color: #fff;}
+
+
+.bgnd {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54vh;
+    max-height: 1200px;
+    min-height: 200px;
+}
+
+.bgnd-1 {
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg");
+}
+ 
+.bgnd-2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg");
+}
+ 
+.bgnd-3 {
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/170407220921-07-iconic-mountains-pitons-restricted.jpg");
+}
+
+nav + .bgnd {
+    height: 86vh;
+}
+
+#section1{
+
+}
+
+#intro_text{
+	width: 900px;
+	margin: auto;
+	margin-top: 300px;
+	font-size: 90px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.text{
+	max-width: 900px;
+	text-align: justify;
+	text-indent: 20px;
+	margin: auto;
+}
+
